@@ -19,7 +19,7 @@ const mongosession=require('connect-mongodb-session')(session);
 const server=http.createServer(app);
 const io=new Server(server,{
   cors:{
-  origin:"https://codexa-frontend-lake.vercel.app",
+  origin:"https://codexa.sbs/",
   methods:["GET","POST"],
   credentials:true
 }
@@ -76,7 +76,7 @@ socket.on('send-candidate',({roomid,candidate})=>{
 
 //cors middleware for accepting 3000 server to store cookies
 app.use(cors({
-  origin:"https://codexa-frontend-lake.vercel.app",
+  origin:"https://codexa.sbs/",
   credentials:true
 }))
 
