@@ -5,8 +5,8 @@ const Transporter=nodemailer.createTransport({
   secure:true,
   host:"smtp.gmail.com",
   auth:{
-    user:"dempro531@gmail.com",
-    pass:"kmpn kjxw hzsp gasy"
+    user:"dempro31@gmail.com",
+    pass:"kmpn kj hzsp gasy"
   }
 })
 exports.sendmail=async (to,sub,mess)=>{
