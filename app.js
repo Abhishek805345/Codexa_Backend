@@ -82,7 +82,7 @@ app.use(cors({
 
 //creating session object
 const store=new mongosession({
-  uri:"mongodb+srv://Abhi_shek:17158894Jaat@firstproject.7epbjmq.mongodb.net/?appName=Firstproject",
+  uri:"mongodb+srv://Abhi_shek:171@firstproject.7epbjmq.mongodb.net/?appName=Firstproject",
   databaseName:'newProject',
   collection:'sessionStore'
 });
