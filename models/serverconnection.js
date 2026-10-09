@@ -1,7 +1,7 @@
 const mongodb=require('mongodb');
 const MongoClient=mongodb.MongoClient;
 
-const url="mongodb+srv://Abhi_shek:17158894Jaat@firstproject.7epbjmq.mongodb.net/?appName=Firstproject";
+const url="mongodb+srv://Abhi_shek:171t@firstproject.7epbjmq.mongodb.net/?appName=Firstproject";
 let _db;
 const connection_fxn=async(callback)=>{
   await MongoClient.connect(url).then(client=>{
